@@ -33,16 +33,8 @@
           //    console.log(model);
 
               objectM.add(model);
-
-              //poprawki skali, położenia, obrotu
-              
-              
-
-
           },
-          // gdy model jest pobierany z serwera
-	 //jest możliwe monitorowanie stanu jego pobierania
-	 //i wykonanie jakiejś czynności dopiero po załadowaniu
+          
 
           function (e) {
             //  console.log("model " + e.loaded +"-"+e.total)

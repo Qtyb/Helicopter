@@ -60,10 +60,10 @@
     scene.add(axis);
 
     camera = new THREE.PerspectiveCamera(
-45, // kąt patrzenia kamery (FOV - field of view)
-4 / 3, // proporcje widoku
-0.1, // min renderowana odległość
-1000000 // max renderowana odległość
+45, 	//angle
+4 / 3,	//ratio 	
+0.1, 	// min render range
+1000000 // max render range
 );
 
 
@@ -120,8 +120,6 @@
         renderer.render(scene, camera);
     }
 
-
-    //na koniec jednokrotne wykonanie powyższej funkcji
 
     animateScene();
             

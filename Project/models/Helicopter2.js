@@ -15,12 +15,12 @@
                 function (collada) {
                     innerCont = collada.scene;
 
-                    wirnik = innerCont.getObjectByName("main_rotor", true)     // o tym mowa w punkcie  2        
-                    wirnik2 = innerCont.getObjectByName("rear_rotor", true)     // o tym mowa w punkcie  2        
+                    wirnik = innerCont.getObjectByName("main_rotor", true)            
+                    wirnik2 = innerCont.getObjectByName("rear_rotor", true)           
 
                     console.log(wirnik);
                     outerCont.add(innerCont);
-                    //wyskaluj model
+              
                     innerCont.scale.set(10, 10, 10);
                     innerCont.rotation.x = 25.1;
                     innerCont.position.set(0, 0, 0);
