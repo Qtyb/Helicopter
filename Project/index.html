@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Helikopter</title>
+    <style>
+        body {
+            width:100%;
+            height:100%;
+            overflow:hidden;
+            margin:0;
+            padding:0;
+        }
+        #divek {
+    position:absolute;
+    top:110px;
+    left:50%;
+    margin-left:-75px;
+    width:150px;
+    height:150px;
+}
+#divek canvas {
+    width:150px;
+    height:150px;
+    
+}
+
+    </style>
+    <script src="core/three.js"></script>
+    <script src="core/ColladaLoader.js"></script>
+    <script src="http://admins.spec.pl.hostingasp.pl/Stefa%C5%84czyk_Dariusz/THREEJS/utils/Stats.js"></script>
+    <script src="core/Materials.js"></script>
+    <script src="models/camera.js"></script>
+    <script src="models/Buildings.js"></script>
+    <script src="models/Helicopter.js"></script>
+    <script src="models/Helicopter2.js"></script>
+    <script src="models/Skybox.js"></script>
+    <script src="Main.js"></script> 
+    
+    <script>
+        var main;
+        window.addEventListener("load", function () {
+            main = new Main();
+        });
+    </script>
+</head>
+<body> 
+    <div id="render"></div>
+</body>
+</html>
