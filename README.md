@@ -1,1 +1,1 @@
-# Helicopter
+# Helicopter project mainly in javascript
