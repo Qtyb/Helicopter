@@ -1,2 +1,2 @@
 # Helicopter simulator project in javascript
-# Works properly on Microsoft Edge
+# Works properly only on Microsoft Edge
